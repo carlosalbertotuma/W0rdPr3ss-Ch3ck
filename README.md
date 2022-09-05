@@ -38,7 +38,7 @@ baixe o script e der permissão de execução: sudo chmod +x W0rdPr3ss-Ch3ck-v.0
 bash W0rdPr3ss-Ch3ck-v.0.1.sh https://dominio.com opcao
  
   
-![image](https://user-images.githubusercontent.com/13341724/188468029-0c7861d6-89e5-4c05-bd6e-3d39358b4d39.png)
+![image](https://user-images.githubusercontent.com/13341724/188469162-7212bb42-cc6a-4f12-a34c-317540fa2541.png)
   
     
 ```
