@@ -36,6 +36,8 @@ Para usar W0rdPr3ss-Ch3ck, siga estas etapas:
 Instale primeiro os pré requisitos.
 baixe o script e der permissão de execução: sudo chmod +x W0rdPr3ss-Ch3ck-v.0.1.sh
 bash W0rdPr3ss-Ch3ck-v.0.1.sh https://dominio.com opcao
+
+Ps: utilize o dominio completo com http ou https ex: bash W0rdPr3ss-Ch3ck-v.0.1.sh https://dominio.com w
     
 ```
 
