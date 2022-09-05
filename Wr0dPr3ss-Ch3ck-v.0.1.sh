@@ -7,7 +7,7 @@ arqSen1=('/.travis.yml' '/.htaccess' '/.bash_history' '/.ssh/known_hosts')
 
 banner2()
 {
-echo "Use: bash W0rdpr3ss-ch3ck-v.0.1.sh https:\\\\dominio.com opcao"
+echo "Use: bash W0rdpr3ss-ch3ck-v.0.1.sh https://dominio.com opcao"
 echo 
 echo "n = check se dominio possui wordpress"
 echo "w = check dominio & arquivos sensiveis wordpress"
