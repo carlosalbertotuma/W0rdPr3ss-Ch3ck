@@ -1,10 +1,8 @@
 #!/bin/bash
-
 git_array=('/.git' '/_wpeprivate/config.json' '/.git-rewrite' '/.git/HEAD' '/.git/index' '/.git/logs' '/.gitattributes' '/.gitconfig' '/.gitkeep' '/.gitmodules' '/.gitreview' '/.svn/entries' '/.svnignore' '/.svn/wc.db' '/.git/config')
 wp_array=('/wp-includes' '/index.php' '/wp-login.php' '/wp-links-opml.php' '/wp-activate.php' '/wp-blog-header.php' '/wp-cron.php' '/wp-links.php' '/wp-mail.php' '/xmlrpc.php' '/wp-settings.php' '/wp-trackback.php' '/wp-admin/setup-config.php?step=1' '/wp-content/plugins/supportboard/supportboard/include/ajax.php' '/wp_inc/' '/wp-config.php.bkp' '/wp-config.php' '/wp-admin/install.php' '/wp-content/plugins/wp-statistics/readme.txt' '/themes/search' '/wp-json/') 
 arqSen=('/ghost/api/canary/admin/setting' '/graphql' '/api/login/' '/.travis.yml' '/.htaccess' '/.bash_history' '/.ssh/known_hosts')
 arqSen1=('/.travis.yml' '/.htaccess' '/.bash_history' '/.ssh/known_hosts')
-
 banner2()
 {
 echo "Use: bash W0rdpr3ss-ch3ck-v.0.1.sh https://dominio.com opcao"
@@ -15,7 +13,6 @@ echo "g = check .git exposed"
 echo "wg = check arquivos sensiveis wordpress & .git exposed"
 echo "a = check arquivos sensiveis"
 echo "ag = check arquivos sensiveis & .git exposed"
-
 }
 
 banner()
@@ -48,7 +45,6 @@ echo
 echo -e "\e[1;37mLivre uso e modificacao, mantenha os creditos em comentario.\e[0m"
 echo -e "\e[1;31mPs: Nao faca teste em dominios sem permissao\e[0m"
 echo
-
 }
 
 if [ -z "$1" ];
